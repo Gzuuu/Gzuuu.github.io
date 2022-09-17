@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Rubik&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <ul>
+    <div class="indice">
+        <li><a href="#foto" class="button">Minha foto</a></li> <br>
+        <li><a href="#caracter" class="button">Características</a></li> <br>
+        <li><a href="#blogs" class="button">blogs que eu acompanho</a></li>
+    </div>
+    </ul>
+    <hr>
+    <div>
     <h1>Jesué da Silva Ferreira</h1>
-    <img src="unknown.png" alt="foto de Jesué da silva ferreira" width="200px" id="foto">
-    <p>Meu nome é Jesué, sou de São José/SC, desde pequeno estou envolvido com tecnologia e 
+        <div id="div-contains">
+        <img src="unknown.png" alt="foto de Jesué da silva ferreira" width="200px" id="foto">
+        <div id="descricao">
+        <p>Meu nome é Jesué, sou de São José/SC, desde pequeno estou envolvido com tecnologia e
         atualmente estou iniciando meu aprendizado em desenvolvimento WEB. </p>
-    <h4 id="caracter">Características</h4>
+        </div>
+    </div>
+    <div style="clear:both;">
+    <h2 id="caracter">Características</h2>
     <hr>
     <ul>
-        <li><strong>Carismático</strong></li>
-        <li>Receptivo</li>
-        <li>Focado</li>
+        <li class="caracter-conteins"><strong>Carismático</strong></li> <br>
+        <li class="caracter-conteins">Receptivo</li> <br>
+        <li class="caracter-conteins">Focado</li>
     </ul>
     <hr>
-    <h4 id="blogs">Blogs que eu acompanho</h4>
+    <h2 id="blogs">Blogs que eu acompanho</h2>
     <ol>
-        <li><a href="https://jovemnerd.com.br/" target="_blank">Jovem nerd</a> </li>
-        <li><a href="https://www.theenemy.com.br/" target="_blank">The enemy</a></li>
-        <li><a href="https://www.geekhunter.com.br/" target="_blank">Geek hunter</a></li>
-    </ol> 
-    <br> 
-    <br>
-    <hr>
-    <ul>
-        <li><a href="#foto">Minha foto</a></li> <br> 
-        <li><a href="#caracter">Características</a></li> <br>
-        <li><a href="#blogs">blogs que eu acompanho</a></li> <br>
-    </ul>
+        <li><a href="https://jovemnerd.com.br/" target="_blank" class="blogs">Jovem nerd</a> </li> <br>
+        <li><a href="https://www.theenemy.com.br/" target="_blank" class="blogs">The enemy</a></li> <br>
+        <li><a href="https://www.geekhunter.com.br/" target="_blank" class="blogs">Geek hunter</a></li>
+    </ol>
+    </div>
 </body>
+
 </html>
