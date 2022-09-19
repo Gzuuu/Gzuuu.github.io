@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(241, 242, 255);
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
@@ -46,19 +46,29 @@ hr {
 }
 .indice {
     border: 1px solid black;
-
+    width: 210px;
+    height: 175px;
+    left: 82%;
+    top: 70%;
+    position: fixed;
+    background-color: rgb(241, 242, 255);
+    border-radius: 8%;
+    padding: 2px;
 }
 #descricao >p {
     position: absolute;
-    left: 380px;
-    top: 280px;
-    width: 19%;
+    left: 480px;
+    top: 140px;
+    width: 22%;
     overflow: auto;
-    border: 1px solid black;
+    height: 25%;
+    line-height: 25px;
+    text-align: left;
 }
 .caracter-conteins:nth-of-type(odd){
     background-color: rgb(252, 143, 252);
-    color: rgb(17, 0, 36);;
+    color: rgb(17, 0, 36);
+
 }
 .blogs:hover {
     background-color: rgb(1, 65, 139);
